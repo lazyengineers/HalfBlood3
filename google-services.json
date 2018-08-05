@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "315977593453",
+    "firebase_url": "https://halfblood2-d633a.firebaseio.com",
+    "project_id": "halfblood2-d633a",
+    "storage_bucket": "halfblood2-d633a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315977593453:android:27b84835ef4b07b1",
+        "android_client_info": {
+          "package_name": "com.lazyengineers.dell1.halfblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315977593453-nkes0kvobhdsqr2lrekcjsr3eosijide.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdD31ltCIvVNHtWeyB2IouaL0XCP5Gag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
