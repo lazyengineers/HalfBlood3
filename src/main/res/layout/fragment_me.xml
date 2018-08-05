@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.v7.widget.Recyclerview="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_900"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:id="@+id/recyclerViewforChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:id="@+id/listViewforChat"
+            android:layout_below="@+id/recyclerViewforChat">
+        </ListView>
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<EditText
+    android:id="@+id/inputText"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:hint="Write a message"
+
+    />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/inputSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_send3"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        />
+</RelativeLayout>
+</LinearLayout>

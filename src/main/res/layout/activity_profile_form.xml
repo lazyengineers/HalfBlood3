@@ -1,0 +1,167 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_900"
+    >
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!-- TODO: Update blank fragment layout -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_pic"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/previewimage"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/profile_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+        <AutoCompleteTextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_number"
+            android:hint="Phone Number"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_status"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avaliable"
+                android:checked="false"
+                android:id="@+id/available"
+                android:textColor="@color/grey_500"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unavaliable"
+                android:checked="false"
+                android:id="@+id/unavailable"
+                android:textColor="@color/grey_500"/>
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/profile_bloodGroup">
+
+                    <RadioButton
+                        android:id="@+id/a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A+"
+                        android:checked="false"
+                        android:textColor="@color/grey_500"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A-"
+                        android:checked="false"
+                        android:id="@+id/a2"
+                        android:textColor="@color/grey_500"/>
+                    <RadioButton
+                        android:id="@+id/b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B+"
+                        android:checked="false"
+                        android:textColor="@color/grey_500"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B-"
+                        android:checked="false"
+                        android:id="@+id/b2"
+                        android:textColor="@color/grey_500"/>
+                    <RadioButton
+                        android:id="@+id/ab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AB+"
+                        android:checked="false"
+                        android:textColor="@color/grey_500"/>
+
+               <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB-"
+                android:checked="false"
+                android:id="@+id/ab2"
+                android:textColor="@color/grey_500"/>
+            <RadioButton
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O+"
+                android:checked="false"
+                android:textColor="@color/grey_500"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-"
+                android:checked="false"
+                android:id="@+id/o2"
+                android:textColor="@color/grey_500"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bombay Blood Group"
+                android:checked="false"
+                android:id="@+id/bbg"
+                android:textColor="@color/grey_500"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+        <AutoCompleteTextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_city"
+            android:hint="City"/>
+
+        <AutoCompleteTextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_address"
+            android:hint="State"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/profile_submit"
+            android:background="@color/grey_900"
+            android:textColor="@color/red_700"/>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

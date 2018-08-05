@@ -1,0 +1,48 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    >
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/grey_700"
+        >
+        <TextView
+            android:id="@+id/uniqueName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:paddingBottom="5dp"
+            android:layout_gravity="left"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/message"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="message"
+            />
+        <TextView
+            android:id="@+id/time_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="time"
+            android:layout_gravity="end"
+            android:textColor="@color/grey_400"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

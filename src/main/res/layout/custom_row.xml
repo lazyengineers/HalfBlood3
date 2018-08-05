@@ -1,0 +1,62 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/grey_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/previewimage"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="--NA--"
+            android:padding="4dp"
+            />
+        <TextView
+            android:id="@+id/cemail"
+            android:layout_below="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="--NA--"
+            android:padding="4dp"
+            />
+        <TextView
+            android:id="@+id/cpass"
+            android:layout_below="@+id/cemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="--NA--"
+            android:padding="4dp"
+           />
+        <TextView
+            android:id="@+id/cblood"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="--NA--"
+            android:padding="4dp"
+
+            />
+        </RelativeLayout>
+    </LinearLayout>
+
+

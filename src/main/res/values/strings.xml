@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HalfBlood</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string name="bloodRequestTime">Blood request time</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_display_list_view">DisplayListView</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_show_my_profile">ShowMyProfile</string>
+</resources>
